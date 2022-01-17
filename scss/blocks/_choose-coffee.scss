@@ -1,0 +1,110 @@
+.choose-your-coffee{
+    background-image: url("../images/choose-bg-img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.performance-system__box-line{
+    position: relative;
+    right: 50px;
+}
+.performance-system{
+    padding-top: 100px;
+    padding-left: 55px;
+}
+
+.performance-system__line{
+    position: absolute;
+    margin-left: 85px;
+    border: 1px solid #FDD6BA;
+    width: 760px;
+    background-color: #FDD6BA;
+}
+
+.performance-system__circle{
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 2px solid #0E8784;
+    top: -16px;
+    left: 70px;
+}
+
+.performance-system__circle-one{
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 2px solid #0E8784;
+    top: -16px;
+    left: 441px;
+}
+
+.performance-system__circle-two{
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 2px solid #0E8784;
+    top: -16px;
+    left: 831px;
+}
+.choose-your-coffee{
+    padding-top: 100px;
+
+}
+
+.choose-your-coffee__list{
+    display: flex;
+    margin: 0;
+    padding-bottom: 85px;
+}
+
+.choose-your-coffee__item{
+    list-style: none;
+    margin-left: 48px;
+    margin-top: 67px;
+}
+
+.choose-your-coffee__item + .choose-your-coffee__item{
+    margin-left: 95px;
+}
+
+.choose-your-coffee__head{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+}
+.choose-your-coffee__head-two{
+    margin: 0;
+    padding: 0;
+    width: 255px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #FEFCF7;
+    padding-top: 38px;
+}
+
+.choose-your-coffee__deac{
+    margin: 0;
+    padding: 0;
+    width: 285px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    padding-top: 42px;
+}

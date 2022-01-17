@@ -1,0 +1,57 @@
+.footer{
+    background-image: url("../images/footer-bac-img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:47px 77px 48px 85px;
+    margin-top: 245px;
+}
+
+.footer__list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-left: 103px;
+}
+
+.footer__item + .footer__item{
+    margin-left: 33px;
+}
+
+.footer__item{
+    margin: 0;
+    position: 0;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+
+    &:hover{
+        color: #fff;
+        }
+}
+
+.footer__main{
+    display: flex;
+    align-items: center;
+}
+
+.footer__link-icon{
+    padding-left: 368px;
+}
+
+.footer__icon-img + .footer__icon-img{
+    margin-left: 24px;
+}
+
+.footer__icon-img{
+    fill: #fff;
+}
+
+.footer__icon-img:hover{
+    fill: #FDD6BA;
+}

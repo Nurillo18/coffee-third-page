@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.header-link__img{
+    width: 236px;
+    height: 26px;
+}
+/* SITENAV */
+
+.header__right-place{
+    margin-left: auto;
+}
+
+.sitenav__list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sitenav__link{
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #83888F
+
+}
+
+.sitenav__item{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.sitenav__link:hover{
+    color:#333D4B;
+    transition: 0.4s;
+}
+
+.sitenav__item + .sitenav__item{
+    margin-left: 32px;
+}

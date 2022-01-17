@@ -1,0 +1,36 @@
+// ===ABOUT US SECTION=====
+
+.about-us-section{
+    background-image: url("../images/hero-bg-img.jpg");
+    background-repeat: no-repeat;
+    background-position-y: 45px;
+    border-radius: 8px;
+    padding: 174px 85px;
+}
+
+.about-us-section__head{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+    font-style: normal;
+}
+.mistake{
+    width: 445px;
+    padding-bottom: 53px;
+}
+
+.about-us-section__desc{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    padding-top: 24px;
+}

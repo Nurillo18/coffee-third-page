@@ -1,0 +1,205 @@
+.how-you-drink{
+    display: flex;
+    width: 1077px;
+}
+
+.drink__box{
+    width: 225px;
+}
+
+.drink__left{
+    margin-top: 168px;
+    padding-left: 70px;
+}
+
+.drink__left-one{
+    display: flex;
+}
+
+.drink__left-one + .drink__left-one{
+    margin-top: 24px;
+}
+
+.drink__zero{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    padding-top: 24px;
+    opacity: 0.25;
+
+    &:hover{
+        color: #0E8784;
+        opacity: 1;
+    }
+}
+
+.drink__desc{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    padding-left: 28px;
+    padding-top: 24px;
+    opacity: 0.25;
+
+    &:hover{
+        opacity: 1;
+    }
+}
+
+
+
+.drink__box{
+    display: flex;
+    align-items: center;
+}
+
+.drink__line{
+    position: relative;
+    right: 224px;
+    display: block;
+    background: black;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    width: 255px;
+    height: 2px;
+}
+
+.drink-right{
+    position: relative;
+    right: 56px;
+    padding-top: 198px;
+    padding-left: 15px;
+}
+
+.drink-right__head{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #83888F;
+    opacity: 0.5;
+    cursor: pointer;
+
+    &::after{
+        position: absolute;
+        right: 247px;
+        content: '';
+        display: block;
+        background-image: url("../images/icon-top.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 18px;
+        height: 11px;
+        opacity: 0.5;
+        cursor: pointer;
+    }
+
+    &:hover{
+        opacity: 1;
+        transition: 0.4px;
+    }
+
+}
+
+.input-controller{
+    display: block;
+    width: 228px;
+    border-radius: 8px;
+    background: #F4F1EB;
+    padding: 32px 28px 84px 28px;
+    margin-top: 56px;
+    margin-right: 23px;
+}
+
+
+
+.form__head{
+    margin: 0;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    padding: 0;
+}
+
+.form__box{
+    width: 172px;
+    padding-top: 24px;
+}
+
+.form__desc{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+.form{
+    display: flex;
+}
+
+.form__input{
+    display: none;
+}
+
+.form__input:checked ~ .input-controller{
+    color: #fff;
+    background: #0E8784;
+}
+
+.form__input:checked ~ .input-controller .form__head{
+    color: #fff;
+}
+
+.form__input:checked ~ .input-controller .form__desc{
+    color: #fff;
+}
+
+button{
+    position: relative;
+    top: 1193px;
+    right: 236px;
+    height: 56px;
+    width: 217px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    background: #0E8784;
+    border-radius: 6px;
+    border: none;
+
+    &:hover{
+        background: #66D2CF;
+        transition: 0.4s;
+    }
+
+    &:active{
+        background: #E2DEDB;
+    }
+
+}
