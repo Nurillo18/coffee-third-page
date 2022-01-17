@@ -978,7 +978,7 @@ button:active {
   padding-left: 368px;
 }
 
-.footer__icon-img + .footer__icon-img {
+.footer__link + .footer__link {
   margin-left: 24px;
 }
 
