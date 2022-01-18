@@ -472,7 +472,7 @@ img {
   background-repeat: no-repeat;
   background-position-y: 45px;
   border-radius: 8px;
-  padding: 174px 85px;
+  padding: 134px 85px;
 }
 
 .about-us-section__head {
@@ -501,6 +501,7 @@ img {
   line-height: 26px;
   color: #FEFCF7;
   padding-top: 24px;
+  opacity: 0.8;
 }
 
 .choose-your-coffee {
@@ -648,6 +649,15 @@ img {
   margin-top: 24px;
 }
 
+.drink__left-one:hover .drink__zero {
+  color: #0E8784;
+  opacity: 1;
+}
+
+.drink__left-one:hover .drink__desc {
+  opacity: 1;
+}
+
 .drink__zero {
   margin: 0;
   padding: 0;
@@ -659,11 +669,6 @@ img {
   color: #333D4B;
   padding-top: 24px;
   opacity: 0.25;
-}
-
-.drink__zero:hover {
-  color: #0E8784;
-  opacity: 1;
 }
 
 .drink__desc {
@@ -678,10 +683,6 @@ img {
   padding-left: 28px;
   padding-top: 24px;
   opacity: 0.25;
-}
-
-.drink__desc:hover {
-  opacity: 1;
 }
 
 .drink__box {
@@ -758,6 +759,10 @@ img {
   padding: 32px 28px 84px 28px;
   margin-top: 56px;
   margin-right: 23px;
+}
+
+.input-controller:hover {
+  background: #FDD6BA;
 }
 
 .form__head {
@@ -976,6 +981,10 @@ button:active {
 
 .footer__link-icon {
   padding-left: 368px;
+}
+
+.footer__link {
+  text-decoration: none;
 }
 
 .footer__link + .footer__link {
